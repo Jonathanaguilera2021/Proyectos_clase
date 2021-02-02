@@ -1,0 +1,59 @@
+/*container*/
+section{
+    width: 100%;
+}
+
+.container{
+    background-color: black;
+    color: white;
+    width: auto;
+    position:fixed;
+    height: 5rem;
+    width:100%;
+}
+
+.nav-logo{
+    width: 500px;
+    height: 50px;
+    margin-top: 0.5rem;
+    margin-left: 10px;
+
+}
+.nav-link {
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    float: right;
+    color:white;
+}
+.nav-link li a{
+    text-decoration: none;
+    color: white;
+    float: right;
+    padding: 50px;
+    display:inline-block;
+}
+.nav-logo-container{
+    width: 5px;
+    height: 50px;
+}
+header{
+    margin-top: auto;
+    flex-wrap: wrap;
+}
+.main-content{
+    display: flex; 
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: auto;
+    
+}
+input{
+    text-align: left;
+    background-color: blue;
+    color: white;
+    float:right;
+    border-bottom: white;
+    padding: 5px;
+}
+
