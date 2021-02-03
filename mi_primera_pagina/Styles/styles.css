@@ -1,0 +1,51 @@
+/*estilos generales*/
+*{
+    margin: 0%;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+/*navbar estilos*/
+.container{
+    background-color: rgba(255, 0, 0, 0.904);
+    color: black;
+    position:fixed;
+    height: 5rem;
+    width:100%;
+}
+.nav-link{
+    list-style-type: none;
+    overflow: hidden;
+    float: right;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    display: flex;
+}
+.nav-link li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    }
+.nav-link li a:hover{
+    color:white;
+}
+.nav-logo-container{
+    margin-top: 1rem;
+    float: left;
+}
+.nav-logo{
+    width: 10rem;
+    height: auto;
+    margin-left: 2rem;
+}
+.main-section {
+    background-color: rgb(250, 8, 8);
+    color: black;
+    text-align: center;
+}
+.main-content {
+    padding-top: 15%;
+}
+
