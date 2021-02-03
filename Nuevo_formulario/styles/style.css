@@ -1,33 +1,47 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
 form {
-    /* Centrar el formulario en la página */
-    margin: 0 auto;
+    margin: 0;
     width: 400px;
     height: 200px;
-    /* Esquema del formulario */
-    padding: 5rem;
-    border: 1px solid #afacac;
+    padding: 4rem;
+    border: 5px solid grey;
     border-radius: 1px;
-    border-radius: .5px;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
   }
   .nav-logo{
-      width: 500px;
-      height: 50px;
+      margin-top: 10px;
+      margin-left: 10px;
+      widows: 250px;
+      height: 25px;
       background-color: black;
   }
   .nav-link li a{
+      
       color: white;
       float: right;
       text-decoration: none;
       margin-top: 1px;
   }
   .nav-link{
+      padding: 10px;
+      flex-wrap: wrap;
       float: right;
-      display: block;
+      display:flex;
+      flex-direction: row;
+      margin: 1%;
+      transition-property:all color  red;
   }
   .container{
       background-color: black;
       width: 100%;
       height: 50px;
+      font: size 15px;
 
   }
 
@@ -55,7 +69,13 @@ button{
     float: right;
     text-decoration: none;
     flex-wrap: wrap;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    border-radius: 10px;
+    white-space: pre-wrap;
+    margin: 3%;
+
 }  
 input,textarea {
   /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
@@ -94,5 +114,5 @@ footer{
     text-align: center;
     font-size: 15px;
     margin-bottom: .5px;
-    padding-top: 5rem;
+    padding:50px;
 }
