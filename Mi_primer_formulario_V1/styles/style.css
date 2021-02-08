@@ -1,0 +1,106 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.formulario-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 25%; 
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 0,5px;
+    text-align: center;
+  }
+  .nav-logo{
+      
+      margin: 5px;
+      margin-top: 15px;
+      margin-left: 2%;
+      width: 250px;
+      height: 25px;
+      
+ }
+
+ 
+  .nav-link li a{
+      color: chartreuse;
+      display: flex;
+      flex-direction:row;
+      white-space:pre-wrap;
+      float: right;
+      text-decoration: none;
+      margin-top: 3px;
+
+  }
+  .nav-link li a:hover{
+    transition-property: all red;
+  }
+ 
+  
+  .nav-link{
+     
+      display: flex;
+      flex-direction:row;
+      white-space: pre-wrap;
+      padding: 1px;
+      flex-wrap: nowrap;
+      float: right;
+      font-size: 20px;
+      
+  }
+   
+  .container{
+      background-color:black;
+      width: 100%;
+      height: 50px;
+      font: size 15px;
+
+  }
+
+  label {
+    /* Tamaño y alineación uniforme */
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    width: 50%;
+    height: 5px;
+    text-align:right;
+    text-decoration: none;
+    
+  }
+  .info-section{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    width: 50%;
+    height: 25px;
+    text-align:left;
+    text-decoration: none;
+
+  }
+button{
+    background-color: blue;
+    color: white;
+    float: right;
+    text-decoration: none;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    border-radius: 10px;
+    white-space: pre-wrap;
+    margin: 3%;
+
+}  
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: .1px;
+    padding:50px;
+}
